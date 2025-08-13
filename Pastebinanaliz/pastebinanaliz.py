@@ -7,7 +7,7 @@ paste_url = "https://pastebin.com/ux4knNGX"
 ANAHTAR_KELIMELER = ["password", "confidential", "leak"]
 
 try:
-    # İçeriği çek
+    # İçeriği çekme
     r = requests.get(paste_url, timeout=10)
     if r.status_code == 200:
         icerik = r.text.lower()
