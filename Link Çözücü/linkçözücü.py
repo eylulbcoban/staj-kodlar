@@ -1,5 +1,5 @@
 import sys, requests
-
+#kısa link 
 DEFAULT_URL = "http://bc.vc/NEBXKTD"
 SECILI = {
     "Server": "Sunucu",
